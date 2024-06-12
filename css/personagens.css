@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-image: url(../imagens/fundos/463818ffd4e3a0af1bf5949bd923ac83.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.containers {
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.img{
+    
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.containers .card {
+	background-color: #f3ebeb;
+    opacity: 0.7;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 20px;
+	width: 300px;
+	border-radius: 20px;
+	text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.card p {
+    font-family: helvetica;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.containers .card1 img {
+	width: 50%;
+	height: auto;
+	margin-bottom: 20px;
+}
+.card button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+}
+.bg_video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    z-index: -100;
+}
+
+#cabecalho {
+    background-color:black;
+    margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+}
+
+#cabecalho #logo {
+    width: 30px;
+}
+
+#cabecalho #menu ul {
+    display: flex;
+}
+
+#cabecalho .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho #menu a {
+    color: white;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+#cabecalho #menu a:hover {
+    background-color: var(--color-01);
+}
+
+#cabecalho #menu li {
+    list-style: none;
+}
+
+#cabecalho #menu li .submenu {
+    display: none;
+    position: absolute;
+    background-color: var(--color-02);
+}
+
+#cabecalho #menu li:hover .submenu {
+    display: block;
+}
