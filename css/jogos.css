@@ -46,7 +46,7 @@ h1, h2, h3{
 }
 
 #cabecalho {
-    background-color: var(--color-02);
+    background-color: black;
     margin-bottom: 30px;
     position: sticky;
     top: 0;
