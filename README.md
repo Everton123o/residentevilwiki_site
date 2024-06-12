@@ -1,4 +1,4 @@
-# [ACESSAR SITE](https://everton123o.github.io/site_residentevil/)
+# [ACESSAR SITE](https://everton123o.github.io/residentevilwiki_site/)
 
 projeto desenvolvido na disciplina de introdução à tecnologia web 
 1 periodo do curso de sistemas de informação
